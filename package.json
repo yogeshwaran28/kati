@@ -1,4 +1,5 @@
 {
+  "homepage": "https://Yogeshwaran28.github.io/Vendor",
   "name": "kati",
   "private": true,
   "version": "0.0.0",
@@ -10,7 +11,6 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "git": "^0.1.5",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-router-dom": "^6.22.3"
