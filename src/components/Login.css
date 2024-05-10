@@ -1,0 +1,61 @@
+/* Login.css */
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 30px;
+  align-items: center;
+  height: 100vh; /* Use the full height of the viewport */
+ 
+}
+
+.title {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #f3f2f2; /* Dark text for better readability */
+}
+
+.login {
+  background:#ffffff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
+  width: 300px; /* Fixed width, but you can make it responsive */
+}
+
+.login input {
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ddd; /* Light border */
+  border-radius: 4px; /* Slightly rounded corners for the input fields */
+  box-sizing: border-box; /* Include padding and border in the element's width */
+}
+
+.login button {
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px;
+  background-color: rgb(43, 184, 161); /* Bootstrap primary color */
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.login button:hover {
+  background-color: #0056b3; /* A darker shade for hover effect */
+}
+
+.login a {
+  display: block;
+  text-align: center;
+  margin-top: 20px;
+  color: #007bff; /* Same as button color for consistency */
+  text-decoration: none;
+}
+
+.login a:hover {
+  text-decoration: underline; /* Simple hover effect for the link */
+}
